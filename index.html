@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/jscript.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar bg-dark">
+            <div>
+                <h4>
+                    <img id="logo" src="./img/logo.png" alt="logo"> <b> FILTERING DATA TABLE </b> <span><i>from
+                            SWAPI</i></span>
+                </h4>
+            </div>
+            <div class="floatRight">
+                <h6>By: Algorithm's Evolve</h6>
+            </div>
+        </nav>
+    </header>
+    <div class="form-group form-inline">
+        <label id="labelInput">Filtering:</label>
+        <input type="text" placeholder="Type to search/filter" class="form-control" id='input'
+            onkeyup='searchTable()' />
+    </div>
+    <div class="overflow">
+        <table id='table' class="table table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th width="5%" scope="col">Nomor</th>
+                    <th width="10%" scope="col">Name</th>
+                    <th width="5%" scope="col">Rotation Period</th>
+                    <th width="10%" scope="col">Orbital Period</th>
+                    <th width="10%" scope="col">Diameter</th>
+                    <th width="10%" scope="col">Climate</th>
+                    <th width="10%" scope="col">Gravity</th>
+                    <th width="20%" scope="col">Terrain</th>
+                    <th width="10%" scope="col">Surface Water</th>
+                    <th width="10%" scope="col">Population</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+</body>
+<section class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                Copyright 2019 | Algorithm's Evolve.
+            </div>
+        </div>
+    </div>
+</section>
+
+</html>
